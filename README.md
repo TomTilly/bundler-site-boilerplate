@@ -1,20 +1,6 @@
-# Basic NPM scripts starter template
+# Parcel Boilerplate
 
-Starter template I use for building simple static sites. Uses npm scripts to watch files and build. Requires Node and NPM (or yarn).
-
-✓ Compresses images
-
-✓ Compiles sass
-
-✓ Compresses JS
-
-✓ Autoprefixes CSS
-
-✓ Live browser refreshing
-
-✓ Includes Normalize CSS
-
-✓ Sass architecture
+Standard vanilla parcel boilerplate with some tweaks to fit my workflow. Uses PostHTML to enable HTML partials. Put partials in `src/html/partials` and include them with `<include src="partial-name.html"></include>`.
 
 ## Usage
 
@@ -36,9 +22,10 @@ npm start
 
 ```
 
-Defaults to using a development build. When going into production, change `"build:css"` value (in package.json) from `"npm run dev:scss && npm run autoprefixer"` to `"npm run prod:scss && npm run autoprefixer"`.
+When you're ready to launch for production:
 
-## Credits
+```
 
-- [sass styleguide](https://sass-guidelin.es/) by Hugo Giraudel. 
-- Based on foundation referenced in [this article](https://css-irl.info/a-modern-front-end-workflow-part-1/)
+npm build
+
+```
