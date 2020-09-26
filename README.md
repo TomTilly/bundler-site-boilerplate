@@ -26,6 +26,6 @@ When you're ready to launch for production:
 
 ```
 
-npm build
+npm run build
 
 ```
