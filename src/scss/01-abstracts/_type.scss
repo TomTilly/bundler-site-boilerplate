@@ -1,6 +1,6 @@
 // Typography
 
-$font-stack: 'Roboto', sans-serif;
+$font-stack: "Roboto", sans-serif;
 
 // Font weights
 
@@ -11,7 +11,7 @@ $font-black: 900;
 
 // Font mixin
 
-@mixin font($weight, $font-family: $font-stack){
+@mixin font($weight, $font-family: $font-stack) {
   font-family: $font-family;
   font-weight: $weight;
 }

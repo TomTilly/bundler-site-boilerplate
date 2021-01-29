@@ -3,3 +3,4 @@ references.md
 node_modules
 dist
 .cache
+.parcel-cache
